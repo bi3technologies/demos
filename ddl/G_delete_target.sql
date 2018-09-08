@@ -1,1 +1,1 @@
-DROP TABLE IF EXISTS `Thiru_Test`;
+DROP TABLE IF EXISTS `targetFact`;
