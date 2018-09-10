@@ -1,6 +1,2 @@
-INSERT INTO targetFact 
-select sales.ProductID,  cust.Name CustomerName , sum(sales.Amount) salesAmount, min(sales.Amount) MinAmount, max(sales.Amount) maxamount, avg(sales.Amount) avgamount from db_table_source1 sales
-inner join db_table_source2 cust on cust.CustomerID = sales.CustomerID
-AND cust.isactive = "Y"
-INNER JOIN db_table_source3 prod on prod.ProductID = sales.ProductID
-group by 1,2
+INSERT INTO `targetFact` VALUES (1,'2018-08-06 15:03:44','Jagan',50,50,50,50),(1,'2018-08-06 15:03:44','Thiru PS',50,20,30,25),(2,'2018-08-06 15:03:44','Jagan',55,10,25,18.333333333333332),(2,'2018-08-06 15:03:44','Thiru PS',100,10,10,10),(3,'2018-08-06 15:03:44','Jagan',120,35,35,35),(3,'2018-08-06 15:03:44','Thiru PS',70,30,30,30);
+
