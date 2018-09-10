@@ -1,1 +1,1 @@
-DROP TABLE IF EXISTS `targetFact`;
+DROP TABLE IF EXISTS `targetFactRel`;

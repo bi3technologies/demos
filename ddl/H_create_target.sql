@@ -1,9 +1,5 @@
-CREATE TABLE `targetFact` (
-  `PurchaseID` bigint(20) NOT NULL,
-  `DOP` datetime DEFAULT NULL,
-  `CustomerName` varchar(80) NOT NULL,
-  `salesAmount` double DEFAULT NULL,
-  `MinAmount` float DEFAULT NULL,
-  `maxamount` float DEFAULT NULL,
-  `avgamount` double DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+CREATE TABLE `targetFactRel` (
+  `Company` varchar(80) DEFAULT NULL,
+  `job_title` varchar(80) DEFAULT NULL,
+  `fee` double DEFAULT NULL
+)
